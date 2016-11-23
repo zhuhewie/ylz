@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/touch_bg_corner"
+    android:orientation="vertical"
+    android:padding="@dimen/x5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="本次就诊已经结束,非常感谢!"
+        android:textColor="@color/textTitle"
+        android:textSize="@dimen/x17" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="医生评价:"
+            android:textColor="@color/textTitle"
+            android:textSize="@dimen/x13" />
+
+        <RatingBar
+            android:id="@+id/rb_point"
+            style="@style/roomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="false"
+            android:max="4"
+            android:numStars="5"
+            android:rating="0.0"
+            android:stepSize="0.5" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="@dimen/x5"
+        android:background="@drawable/bg_rectangle_with_stroke_only"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/et_qustion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="评价一下本次就诊吧" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_commit"
+            android:layout_width="@dimen/x100"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x10"
+            android:background="@drawable/touch_btn_selector"
+            android:text="提交"
+
+            />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="@dimen/x100"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_marginTop="@dimen/x10"
+            android:background="@drawable/touch_btn_selector"
+            android:text="暂不评价"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_add_qustion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="追加问题﹀"
+        android:textColor="@color/textDialogOk" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="@dimen/x5"
+        android:background="@drawable/bg_rectangle_with_stroke_only"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/et_add_qustion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="你想追加的问题" />
+    </LinearLayout>
+
+</LinearLayout>

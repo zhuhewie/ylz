@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ylzpatient.hq.zz.com.yilianzhongpatient.fragment.layout.Service.reportQuery.ReportImgFragment">
+
+    <include layout="@layout/top_layout_1" />
+    <ylzpatient.hq.zz.com.yilianzhongpatient.utils.PinchImageView
+        android:id="@+id/pimg_report"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

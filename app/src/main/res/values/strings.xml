@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">医联众</string>
+    <string name="hospital_name">广州医科大学附属第三医院</string>
+    <string name="hospital_logo">医院Logo</string>
+    <string name="hospital_subname">广州医科大学附属第三医院</string>
+    <string name="app_title">检验标本送检管理系统</string>
+    <string name="hint_staff_id">工号</string>
+    <string name="icon_account">用户帐户icon</string>
+    <string name="dropdown_button">工号下拉按钮</string>
+    <string name="hint_password">密码</string>
+    <string name="text_remember_password">记住密码</string>
+    <string name="text_auto_login">自动登录</string>
+    <string name="text_login">登录</string>
+    <string name="text_configure_connect">设置连接参数</string>
+    <string name="text_demo_test">进入Demo测试界面</string>
+    <string name="text_forget_password"><u>忘记密码？</u></string>
+    <string name="text_support">技术支持：广州惠侨</string>
+    <string name="text_collection">采集</string>
+    <string name="text_take">收取</string>
+    <string name="text_check">送达</string>
+    <string name="text_qianshou">签收</string>
+    <string name="text_oper_record">操作记录</string>
+    <string name="start_state">初始状态</string>
+    <string name="collected_state">已采集</string>
+    <string name="sended_state">已送检</string>
+    <string name="siged_state">已签收</string>
+    <string name="notify">提示</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="labUserID">账号</string>
+    <string name="labPassword">密码</string>
+    <string name="btnOnLogin">登录</string>
+    <string name="netstate">网络状态:</string>
+    <string name="backtime">剩余时间:</string>
+    <string name="timeunit">秒</string>
+    <string name="unup">未上传消息数:</string>
+
+    <!-- work space -->
+    <string name="finish_btn_txt">完成</string>
+    <string name="k_login_userid_layout">用户名布局</string>
+    <string name="k_login_userpass_layout">密码布局</string>
+    <string name="k_login_btn">登录</string>
+    <string name="k_login_forget">忘记密码</string>
+    <string name="k_login_register">立即注册</string>
+    <string name="k_login_app_version">版本</string>
+    <string name="k_login_bottom_content">技术支持:惠侨有限公司</string>
+    <string name="k_demo_bottom_geren">个人中心</string>
+    <string name="k_demo_bottom_zhuyuan">住院</string>
+    <string name="k_demo_bottom_wangluo">网络诊室</string>
+    <string name="k_demo_bottom_menzhen">门诊</string>
+    <string name="top_person_name">个人中心</string>
+    <string name="top_personInf_name">账号信息</string>
+    <string name="top_hostpital_name">住院</string>
+    <string name="main_register_name">注册</string>
+    <string name="main_register_btn">注册</string>
+    <string name="main_forget_top">忘记密码</string>
+    <string name="main_forget_next_btn">下一步</string>
+    <string name="main_forget_reset">确定</string>
+    <string name="personinf_reset_phone_btn">确认</string>
+    <string name="personinf_reset_mail_top">修改新邮箱</string>
+    <string name="personinf_resent_phone_top">修改绑定手机</string>
+    <string name="prescription_confirm">确定</string>
+
+
+    <!--服务界面-->
+    <string name="outpatient_appointment"></string> <!--门诊预约-->
+
+    <!--底部按钮-->
+    <string name="service">服务</string>
+    <string name="seeDoctor">就诊</string>
+    <string name="pay">缴费</string>
+    <string name="me">我的</string>
+
+    <string name="mis_folder_all">所有照片</string>
+    <string name="mis_preview">预览</string>
+    <string name="mis_msg_no_camera">没有系统相机</string>
+    <string name="mis_msg_amount_limit">已经达到最高选择数量</string>
+    <string name="mis_action_done">完成</string>
+    <string name="mis_photo_unit">张</string>
+    <string name="mis_tip_take_photo">拍摄照片</string>
+    <string name="mis_error_image_not_exist">图片错误</string>
+    <string name="mis_error_no_permission">无权限</string>
+    <string name="mis_permission_dialog_title">权限拒绝</string>
+    <string name="mis_permission_dialog_ok">好</string>
+    <string name="mis_permission_dialog_cancel">拒绝</string>
+    <string name="mis_permission_rationale">浏览图片需要您提供浏览存储的权限</string>
+    <string name="mis_permission_rationale_write_storage">保存拍照图片需要您提供写存储权限</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/app_doctor_layout" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorSplitLine" />
+
+        <LinearLayout
+            android:id="@+id/layout_app_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/x5"
+            android:paddingTop="@dimen/x5">
+
+            <ImageView
+                android:layout_width="@dimen/x13"
+                android:layout_height="@dimen/x13"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/x5"
+                android:src="@mipmap/bottom_btn_yuyue2x" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x5"
+                android:layout_weight="1"
+                android:text="预约时段"
+                android:textColor="@color/textTitle"
+                android:textSize="@dimen/x13" />
+
+            <TextView
+                android:id="@+id/text_app_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="7dp"
+                android:text="8:00-9:00" />
+
+            <ImageView
+                android:layout_width="@dimen/x18"
+                android:layout_height="@dimen/x18"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="@dimen/x8"
+                android:paddingRight="@dimen/x8"
+                android:src="@mipmap/body_ico_next_2x" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorSplitLine" />
+
+
+        <LinearLayout
+            android:id="@+id/layout_symptom_describe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/x5"
+            android:paddingTop="@dimen/x5">
+
+            <ImageView
+                android:layout_width="@dimen/x13"
+                android:layout_height="@dimen/x13"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/x5"
+                android:src="@mipmap/bottom_btn_zhengzhuangicon2x" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x5"
+                android:layout_weight="1"
+                android:text="症状描述"
+                android:textColor="@color/textTitle"
+                android:textSize="@dimen/x13" />
+
+            <TextView
+                android:id="@+id/text_jibingmiaosu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="7dp"
+                android:text="" />
+            <ImageView
+                android:layout_width="@dimen/x18"
+                android:layout_height="@dimen/x18"
+                android:layout_alignParentRight="true"
+                android:paddingRight="@dimen/x8"
+                android:src="@mipmap/body_ico_next_2x" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorSplitLine" />
+
+        <LinearLayout
+            android:id="@+id/ll_parent_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/x5"
+            android:paddingTop="@dimen/x5">
+
+            <ImageView
+                android:layout_width="@dimen/x13"
+                android:layout_height="@dimen/x13"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/x5"
+                android:src="@mipmap/bottom_btn_jiuzhenka2x" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x5"
+                android:layout_weight="1"
+                android:text="就诊卡"
+                android:textColor="@color/textTitle"
+                android:textSize="@dimen/x13" />
+
+            <TextView
+                android:id="@+id/text_patient_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="7dp"
+                android:text="选择就诊卡" />
+
+            <ImageView
+                android:layout_width="@dimen/x18"
+                android:layout_height="@dimen/x18"
+                android:layout_alignParentRight="true"
+                android:paddingRight="@dimen/x8"
+                android:src="@mipmap/body_ico_next_2x" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorSplitLine" />
+
+        <include
+            android:id="@+id/new_patient_card"
+            layout="@layout/patient_card_layout"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+</ScrollView>

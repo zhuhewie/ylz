@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_layout_1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="您已进入xxx医生的网络诊室" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+
+                android:id="@+id/rv_chat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/tl_input" />
+
+
+            <LinearLayout
+                android:id="@+id/tl_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x45"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/bottom_line"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_send_text"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/x35"
+                    android:layout_margin="@dimen/x5"
+                    android:layout_weight="1"
+                    android:background="@drawable/touch_bg_rectangle_corner_stroke"
+                    android:padding="@dimen/x5" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/x50"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:id="@+id/img_add_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/x5"
+                        android:layout_marginBottom="@dimen/x5"
+                        android:src="@mipmap/bottom_btn_add_pre"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_send"
+                        android:layout_width="@dimen/x45"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/x5"
+                        android:layout_marginRight="@dimen/x5"
+                        android:layout_marginTop="@dimen/x5"
+                        android:background="@drawable/touch_bg_green_corner"
+                        android:gravity="center"
+                        android:text="发送"
+                        android:textColor="@color/white"
+                        android:visibility="gone"
+
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_choose_function"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x15"
+                android:src="@mipmap/bottom_btn_pic2_pre" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="图片"
+                android:gravity="center"
+                android:textSize="@dimen/x18"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x15"
+                android:src="@mipmap/bottom_btn_camera2_pre" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="拍摄"
+                android:gravity="center"
+                android:textSize="@dimen/x18"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_back_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x15"
+                android:src="@mipmap/bottom_btn_fangqiwenzhen_pre_2x" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="放弃问诊"
+                android:gravity="center"
+                android:textSize="@dimen/x18"
+                />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

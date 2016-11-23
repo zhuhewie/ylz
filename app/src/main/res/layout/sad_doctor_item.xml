@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/x4"
+    android:paddingBottom="@dimen/x3"
+    android:paddingLeft="@dimen/x5"
+    >
+
+    <ImageView
+        android:id="@+id/img_doctor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="@dimen/x5"
+        android:src="@mipmap/jiang_rong_long_image_2x"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_doctor_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姜容龙"
+                android:textSize="20dp"
+                android:textColor="@color/textTitle"
+                />
+            <TextView
+                android:id="@+id/text_doctor_lv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="主任医师"
+                android:textColor="@color/textPuTong"
+
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="擅长:"
+            android:textColor="@color/textDoctorGood"
+            />
+        <TextView
+            android:id="@+id/text_doctor_good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textTitle"
+            android:text=""
+
+            />
+
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/x10"
+        android:background="@color/colorSplitLine"
+        />
+    </LinearLayout>
+
+</LinearLayout>

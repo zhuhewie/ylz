@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/layout_service_menu"
+        >
+
+        <ImageView
+            android:id="@+id/image_service"
+            android:layout_width="@dimen/x25"
+            android:layout_height="@dimen/x25"
+            android:src="@drawable/bottom_service_selector"
+            android:paddingBottom="@dimen/x5"
+            />
+
+        <TextView
+            android:id="@+id/text_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/service"
+            android:textColor="@drawable/bottom_menu_text_seleter"
+            android:textSize="@dimen/x8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/layout_seedoctor_menu"
+        >
+
+        <ImageView
+            android:id="@+id/image_seedoctor"
+            android:layout_width="@dimen/x25"
+            android:layout_height="@dimen/x25"
+            android:paddingBottom="@dimen/x5"
+
+            android:src="@drawable/bottom_seedoctor_selector" />
+
+        <TextView
+            android:id="@+id/text_seedoctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seeDoctor"
+            android:textColor="@drawable/bottom_menu_text_seleter"
+            android:textSize="@dimen/x8" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/layout_pay_menu"
+        >
+
+        <ImageView
+            android:id="@+id/image_pay"
+            android:layout_width="@dimen/x25"
+            android:layout_height="@dimen/x25"
+            android:paddingBottom="@dimen/x5"
+
+            android:src="@drawable/bottom_pay_selector" />
+
+        <TextView
+            android:id="@+id/text_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seeDoctor"
+            android:textColor="@drawable/bottom_menu_text_seleter"
+            android:textSize="@dimen/x8" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/layout_me_menu"
+        >
+
+        <ImageView
+            android:id="@+id/image_me"
+            android:layout_width="@dimen/x25"
+            android:layout_height="@dimen/x25"
+            android:paddingBottom="@dimen/x5"
+
+            android:src="@drawable/bottom_me_selector" />
+
+        <TextView
+            android:id="@+id/text_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seeDoctor"
+            android:textColor="@drawable/bottom_menu_text_seleter"
+            android:textSize="@dimen/x8" />
+
+    </LinearLayout>
+
+</LinearLayout>

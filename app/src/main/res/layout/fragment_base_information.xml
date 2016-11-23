@@ -1,0 +1,290 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ylzpatient.hq.zz.com.yilianzhongpatient.fragment.layout.Service.healthRecord.BasicFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:paddingBottom="@dimen/x5"
+                android:paddingTop="@dimen/x5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="姓        名 :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:paddingLeft="@dimen/x5"
+                    android:text="李文峰"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:paddingBottom="@dimen/x5"
+                android:paddingTop="@dimen/x5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="性        别 :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+                <TextView
+                    android:id="@+id/tv_sex"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:paddingLeft="@dimen/x5"
+                    android:text="男"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:paddingBottom="@dimen/x5"
+                android:paddingTop="@dimen/x5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="年        龄 :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+                <TextView
+                    android:id="@+id/tv_age"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:paddingLeft="@dimen/x5"
+                    android:text="25岁"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:paddingBottom="@dimen/x5"
+                android:paddingTop="@dimen/x5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="体        重 :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+                <TextView
+                    android:id="@+id/tv_weight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:paddingLeft="@dimen/x5"
+                    android:text="65kg"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:paddingBottom="@dimen/x5"
+                android:paddingTop="@dimen/x5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="血        型 :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14"
+                    android:id="@+id/textView" />
+
+                <TextView
+                    android:id="@+id/tv_blood_type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:paddingLeft="@dimen/x5"
+                    android:text="A"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:paddingBottom="@dimen/x5"
+                android:paddingTop="@dimen/x5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="过  敏  史 :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+                <TextView
+                    android:id="@+id/tv_allergy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:paddingLeft="@dimen/x5"
+                    android:text="正常人体含有一定量的组织胺酶,对过敏反应中的某些细胞释放的组织具有破坏作用"
+                    android:textSize="@dimen/x14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:paddingBottom="@dimen/x5"
+                android:paddingTop="@dimen/x5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="家族病史 :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+                <TextView
+                    android:id="@+id/tv_family_history"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:paddingLeft="@dimen/x5"
+                    android:text="爷爷患有哮喘"
+                    android:textSize="@dimen/x14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:paddingBottom="@dimen/x5"
+                android:paddingTop="@dimen/x5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="饮  酒  史 :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+                <TextView
+                    android:id="@+id/tv_drink"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:paddingLeft="@dimen/x5"
+                    android:text="少量"
+                    android:textSize="@dimen/x14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:paddingBottom="@dimen/x5"
+                android:paddingTop="@dimen/x5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="抽  烟  史 :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+                <TextView
+                    android:id="@+id/tv_smoke"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:paddingLeft="@dimen/x5"
+                    android:text="3年"
+                    android:textSize="@dimen/x14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:paddingBottom="@dimen/x5"
+                android:paddingTop="@dimen/x5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="用  药  史 :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x14" />
+
+                <TextView
+                    android:id="@+id/tv_medication"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:paddingLeft="@dimen/x5"
+                    android:text="特效药"
+                    android:textSize="@dimen/x14" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

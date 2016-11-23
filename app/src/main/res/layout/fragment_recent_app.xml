@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ylzpatient.hq.zz.com.yilianzhongpatient.fragment.layout.seeDoctor.RecentAppFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/top_layout_1" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/srl_app_recent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_recent_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <TextView
+            android:id="@+id/tv_waring"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="最近预约记录为空"
+            android:textColor="@color/textWoring" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/touch_bg_corner"
+        android:orientation="vertical"
+
+        android:padding="@dimen/x7">
+
+
+        <Button
+            android:id="@+id/btn_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/touch_bg"
+            android:text="从相册中选择" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorSplitLine"
+            />
+
+        <Button
+            android:id="@+id/btn_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/touch_bg"
+            android:text="拍摄" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/touch_bg_corner"
+        android:padding="@dimen/x7"
+
+        >
+
+        <Button
+            android:id="@+id/btn_dismiss"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/touch_bg"
+            android:text="取消" />
+    </LinearLayout>
+
+</LinearLayout>

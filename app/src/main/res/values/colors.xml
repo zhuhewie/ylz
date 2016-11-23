@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2AD8C1</color>
+    <color name="colorPrimaryDark">#2AD8C1</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="light_grey">#D7D7D7</color>
+    <color name="super_light_grey">#FAFAFA</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="loginLayoutForgentAregisterText">#2269d4</color>
+    <color name="viewBackground">#F0F1F3</color> <!--界面的背景色-->
+    <color name="colorSplitLine">#D7D7D7</color> <!--分割线的颜色-->
+    <color name="transparent">#00ffffff</color> <!--分割线的颜色-->
+
+    <color name="textPuTong">#999999</color> <!--普通文字的颜色-->
+    <color name="textTitle" >#292929</color> <!--比较醒目的文字颜色,比如医生姓名,患者姓名,项目标题-->
+    <color name="textDialogOk">#236ad6</color> <!--普通文字的颜色-->
+    <color name="textDoctorGood" >#FF9B48</color> <!--医生擅长文字颜色-->
+    <color name="textWeek" >#2269D3</color> <!--星期的文字颜色-->
+    <color name="textPaitent" >#458ffc</color> <!--就诊人的文字颜色-->
+    <color name="textPaitentDate" >#ff9b45</color> <!--就诊日期的文字颜色-->
+    <color name="textWoring" >#A50907</color> <!--警告文字颜色-->
+    <color name="btnClick" >#05b4a4</color> <!--按钮点击是的颜色-->
+
+
+
+
+    <color name="bottomNativationBar">#2AD8C1</color> <!--底部按钮颜色-->
+    <color name="colorButtonClick">#772AD8C1</color> <!--底部按钮颜色-->
+
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!预约科室界面的颜色!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <color name="backgroundDepartmentUnselect">#F0F1F2</color> <!--可预约科室右侧列表未选中是颜色1-->
+    <color name="backgroundDepartmentSelect">#707172</color> <!--可预约科室右侧列表选中时颜色1-->
+    <color name="backgroundDepartmentUnselect_2">#FFFFFF</color> <!--可预约科室右侧列表未选中是颜色2-->
+    <color name="backgroundDepartmentSelect_2">#999999</color> <!--可预约科室右侧列表选中时颜色2-->
+    <color name="backgroundDepartmentLeft">#D6D7D9</color> <!--可预约科室左侧侧列表未选中是颜色-->
+    <color name="colorFF0C55">#FF0C55</color> <!--就诊界面住院门诊颜色-->
+
+
+    <color name="alpha100">#00000000</color>
+    <color name="alpha50">#50323232</color>
+
+    <color name="indigo">#ffffff</color>
+    <color name="pink">#FF1493</color>
+    <color name="read">#FF0000</color>
+    <color name="green">#00ff00</color>
+    <color name="bule">#0000ff</color>
+    <color name="yellow">#ffff00</color>
+
+    <color name="black">#0D0D0D</color>
+    <color name="normal_result">#ff9c49</color>
+    <color name="normal_item">#282828</color>
+    <color name="problem_item">#FF0000</color>
+</resources>

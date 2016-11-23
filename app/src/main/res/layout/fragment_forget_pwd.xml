@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ylzpatient.hq.zz.com.yilianzhongpatient.fragment.layout.me.ForgetPwdFragment">
+
+    <LinearLayout 
+        android:id="@+id/ll_forget_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <include layout="@layout/top_layout_1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginRight="@dimen/x20"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/tiet_phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入手机号" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/tv_send_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/til_phone_number"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/x10"
+                android:background="@drawable/renzhengzhanghao_shape"
+                android:gravity="center"
+                android:padding="@dimen/x5"
+                android:text="发送验证码" />
+        </RelativeLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_number_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginRight="@dimen/x20"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/tiet_number_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入收到的验证码" />
+        </android.support.design.widget.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginRight="@dimen/x20"
+            >
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_img_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/tiet_img_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入右侧验证码"
+                    android:inputType="text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/img_code"
+                android:layout_width="@dimen/x100"
+                android:layout_height="@dimen/x30"
+                android:layout_alignBottom="@+id/til_img_code"
+                android:layout_alignParentRight="true"
+                android:paddingTop="@dimen/x5"
+                android:layout_marginBottom="@dimen/x10"
+                />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginRight="@dimen/x20"
+            android:layout_marginTop="@dimen/x25"
+            android:background="@drawable/touch_btn_selector"
+            android:padding="@dimen/x10"
+            android:text="下一步"
+            android:textColor="@color/white"
+
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>

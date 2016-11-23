@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_blank"
+    android:layout_width="@dimen/app_date_choose_width"
+    android:layout_height="@dimen/app_date_choose_height"
+    android:background="@drawable/touch_bg_rectangle"
+    android:orientation="vertical">
+
+</LinearLayout>

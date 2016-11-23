@@ -1,0 +1,167 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ylzpatient.hq.zz.com.yilianzhongpatient.fragment.layout.me.RegisterFragment">
+
+    <LinearLayout
+
+        android:id="@+id/activity_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/top_layout_1" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/x20"
+                android:layout_marginRight="@dimen/x20"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="用户信息"
+                    android:textColor="@color/textWeek"
+                    android:textSize="@dimen/x17" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/til_uesr_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/tiet_uesr_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="123456789zxcvbnmasdfghjklqwertyuiopQWERTYUIOPASDFGHJKLZXCVBNM"
+                        android:hint="用户名,数字字母或两种组合"
+                        android:inputType="text" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/til_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/tiet_pwd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="123456789zxcvbnmasdfghjklqwertyuiopQWERTYUIOPASDFGHJKLZXCVBNM"
+                        android:hint="密码,数字或字母的组合,长度不小于6"
+                        android:inputType="textPassword" />
+                </android.support.design.widget.TextInputLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/til_img_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/tiet_img_code"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="请输入右侧验证码"
+                            android:inputType="text" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <ImageView
+                        android:id="@+id/img_code"
+                        android:layout_width="@dimen/x100"
+                        android:layout_height="@dimen/x30"
+                        android:layout_alignBottom="@+id/til_img_code"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="@dimen/x10"
+                        />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x70"
+                    android:text="手机验证"
+                    android:textColor="@color/textWeek"
+                    android:textSize="@dimen/x17" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/til_phone_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/tiet_phone_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="请输入手机号"
+                            android:inputType="phone" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/tv_send_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/til_phone_number"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="@dimen/x10"
+                        android:background="@drawable/renzhengzhanghao_shape"
+                        android:gravity="center"
+                        android:padding="@dimen/x5"
+                        android:text="发送验证码" />
+                </RelativeLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/til_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/tiet_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="请输入收到的验证码"
+                        android:inputType="number" />
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:layout_marginRight="@dimen/x20"
+                    android:layout_marginTop="@dimen/x25"
+                    android:background="@drawable/touch_btn_selector"
+                    android:paddingTop="@dimen/x5"
+                    android:paddingBottom="@dimen/x5"
+                    android:text="注册"
+                    android:textColor="@color/white"
+
+                    />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

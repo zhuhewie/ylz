@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/x10">
+
+    <TextView
+        android:id="@+id/tv_durg_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x45"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:text="胆红素"
+        android:textSize="@dimen/x16" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_child_durg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

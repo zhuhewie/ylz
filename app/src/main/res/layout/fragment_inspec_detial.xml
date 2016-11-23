@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ylzpatient.hq.zz.com.yilianzhongpatient.fragment.layout.Service.reportQuery.InspecDetialFragment">
+
+    <include layout="@layout/top_layout_1" />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_inspection_detil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_inspection_detial"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <Button
+        android:id="@+id/btn_inspe_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/touch_bg_grey_borde_green_rectangle"
+        android:text="查看报告详情"
+        android:textColor="@color/white" />
+</LinearLayout>

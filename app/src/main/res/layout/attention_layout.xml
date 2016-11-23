@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <include
+        layout="@layout/top_layout_1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textWoring"
+        android:padding="@dimen/x5"
+        android:text="这是个网络诊室,会产生真是的就诊环境,所以会要求您同意一下条款才能进入问诊环节."
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x5"
+        android:background="@color/colorSplitLine"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/x5"
+        android:text="
+        这个是网络诊室，会产生真实的就诊环境，所以会要求您同意以下条款才能进入问诊环节。这个是网络诊室，会产生真实的就诊环境，所以会要求您同意以下条款才能进入问诊环节。这个是网络诊室，会产生真实的就诊环境，所以会要求您同意以下条款才能进入问诊环节。这个是网络诊室，会产生真实的就诊环境，所以会要求您同意以下条款才能进入问诊环节。这个是网络诊室，会产生真实的就诊环境，所以会要求您同意以下条款才能进入问诊环节。这个是网络诊室，会产生真实的就诊环境，所以会要求您同意以下条款才能进入问诊环节。这个是网络诊室，会产生真实的就诊环境，所以会要求您同意以下条款才能进入问诊环节。这个是网络诊室，会产生真实的就诊环境，所以会要求您同意以下条款才能进入问诊环节。这个是网络诊室，会产生真实的就诊环境，所以会要求您同意以下条款才能进入问诊环节。这个是网络诊室，会产生真实的就诊环境，所以会要求您同意以下条款才能进入问诊环节。这个是网络诊室，会产生真实的就诊环境，所以会要求您同意以下条款才能进入问诊环节。这个是网络诊室，会产生真实的就诊环境，所以会要求您同意以下条款才能进入问诊环节。这个是网络诊室，会产生真实的就诊环境，所以会要求您同意以下条款才能进入问诊环节。"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_agree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我同意《用户就诊协议》"
+        />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x35"
+        android:layout_marginTop="@dimen/x5"
+        android:padding="@dimen/x10"
+        android:layout_marginLeft="@dimen/x5"
+        android:layout_marginRight="@dimen/x5"
+        android:text="确定"
+        android:background="@drawable/touch_btn_selector"
+
+        />
+</LinearLayout>

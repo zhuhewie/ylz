@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/x5"
+    android:background="@drawable/touch_bg_corner"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="是否要进入医生诊室"
+        android:textColor="@color/textTitle"
+        android:layout_marginTop="@dimen/x5"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_surplus_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="剩余时间"
+        android:textColor="@color/textDialogOk"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/x5"
+        android:layout_marginBottom="@dimen/x15"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorSplitLine"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textColor="@color/textPuTong"
+            android:background="@drawable/touch_bg"
+
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorSplitLine"
+            />
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="立即进入"
+            android:textColor="@color/textDialogOk"
+            android:background="@drawable/touch_bg"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

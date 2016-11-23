@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include
+        layout="@layout/top_layout_4"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/x5"
+        android:paddingTop="@dimen/x5"
+        android:paddingBottom="@dimen/x5"
+        android:textColor="@color/textTitle"
+        android:text="执业点"
+        />
+    <TextView
+        android:id="@+id/tv_doctor_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/x5"
+        android:paddingTop="@dimen/x5"
+        android:paddingBottom="@dimen/x5"
+        android:textColor="@color/textPuTong"
+        android:text="测试医院名称"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x5"
+        android:background="@color/colorSplitLine"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/x5"
+        android:paddingTop="@dimen/x5"
+        android:paddingBottom="@dimen/x5"
+        android:textColor="@color/textTitle"
+        android:text="擅长"
+        />
+
+    <TextView
+        android:id="@+id/tv_doctor_good"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/x5"
+        android:paddingTop="@dimen/x5"
+        android:paddingBottom="@dimen/x5"
+        android:textColor="@color/textPuTong"
+        android:text="测试医生的擅长测试医生的擅长测试医生的擅长测试医生的
+        擅长测试医生的擅长测试医生的擅长测试医生的擅长..."
+        android:lines="3"
+        />
+    <TextView
+        android:id="@+id/tv_doctor_more_good"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="@dimen/x5"
+        android:paddingTop="@dimen/x5"
+        android:paddingBottom="@dimen/x5"
+        android:textColor="@color/textPuTong"
+        android:text="展开  ﹀"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x5"
+        android:background="@color/colorSplitLine"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/x5"
+        android:paddingTop="@dimen/x5"
+        android:paddingBottom="@dimen/x5"
+        android:textColor="@color/textTitle"
+        android:text="简介"
+        />
+
+    <TextView
+        android:id="@+id/tv_doctor_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/x5"
+        android:paddingTop="@dimen/x5"
+        android:paddingBottom="@dimen/x5"
+        android:textColor="@color/textPuTong"
+        android:text="测试医生的简介测试医生的简介测试医生的简介测试医生的简介测试医生的简介测试医生的简介
+        测试医生的简介测试医生的简介测试医生的简介测试医生的简介..."
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x5"
+        android:background="@color/colorSplitLine"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/y5"
+    android:paddingTop="@dimen/y5">
+
+    <LinearLayout
+        android:layout_width="@dimen/x150"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="结果 : "
+                android:textColor="@color/black"
+                android:textSize="@dimen/x13" />
+
+            <TextView
+                android:id="@+id/tv_checkout_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="阴性"
+                android:textSize="@dimen/x13" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="参考 : "
+                android:textColor="@color/black"
+                android:textSize="@dimen/x13" />
+
+            <TextView
+                android:id="@+id/tv_checkout_consult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-----"
+                android:textSize="@dimen/x13" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_checkout_name"
+        android:layout_width="@dimen/x145"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:ellipsize="marquee"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="胆红素"
+        android:textSize="@dimen/x15" />
+</RelativeLayout>

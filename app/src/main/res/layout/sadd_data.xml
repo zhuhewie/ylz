@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_layout_4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:id="@+id/layout_hospital_department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/x10"
+            android:paddingBottom="@dimen/x10"
+            >
+
+
+            <TextView
+                android:id="@+id/text_app_hospital_department"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="医院和科室"
+                android:textColor="@color/textTitle"
+                android:textSize="@dimen/x13" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/x8"
+                android:src="@mipmap/body_ico_next_2x" />
+        </LinearLayout>
+        <include
+            layout="@layout/sadd_app_date_layout"
+            android:id="@+id/layout_choose_date"
+            android:visibility="visible"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x5"
+            android:background="@color/viewBackground" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/x10"
+            android:paddingBottom="@dimen/x10"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="预约注意事项"
+                android:textColor="@color/textTitle"
+                android:textSize="@dimen/x13" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/x8"
+                android:src="@mipmap/body_ico_next_2x" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

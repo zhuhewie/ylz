@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/x5"
+    android:paddingTop="@dimen/x5">
+
+    <ImageView
+        android:id="@+id/img_app"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_app_doctor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="医生姓名"
+            android:textColor="@color/textTitle"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text_doctor_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="医生等级 | 医院 | 科室"
+            android:textColor="@color/textPuTong" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时    间:"
+                android:textColor="@color/textTitle" />
+
+            <TextView
+                android:id="@+id/text_app_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016-05-23\t周日\t上午"
+                android:textColor="@color/textTitle" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地    点:"
+                android:textColor="@color/textTitle" />
+
+            <TextView
+                android:id="@+id/text_app_adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="清远市中医院\t鼻科门诊"
+                android:textColor="@color/textTitle" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="门诊类型:"
+                android:textColor="@color/textTitle" />
+
+            <TextView
+                android:id="@+id/text_app_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/textTitle" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="金    额:"
+                android:textColor="@color/textTitle" />
+
+            <TextView
+                android:id="@+id/text_app_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥"
+                android:textColor="@color/textTitle" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

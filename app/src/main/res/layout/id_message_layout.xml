@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <include layout="@layout/top_layout_1" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x8"
+            android:paddingRight="@dimen/x8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="头像"
+                android:textColor="@color/textTitle" />
+
+            <ImageView
+                android:id="@+id/img_user"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/x80"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/x8"
+                android:paddingTop="@dimen/x8"
+                android:scaleType="fitEnd"
+                android:src="@mipmap/body_bg_photo"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/x8"
+
+                android:paddingRight="@dimen/x8"
+                android:src="@mipmap/body_ico_next_2x" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorSplitLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x8"
+            android:paddingRight="@dimen/x8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="账户名"
+                android:textColor="@color/textTitle" />
+
+            <TextView
+                android:id="@+id/text_login_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="@dimen/x8"
+                android:paddingTop="@dimen/x8"
+                android:text="风行者"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorSplitLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x8"
+            android:paddingRight="@dimen/x8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="姓名"
+                android:textColor="@color/textTitle" />
+
+            <TextView
+                android:id="@+id/text_user_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="@dimen/x8"
+                android:paddingTop="@dimen/x8"
+                android:text="水人"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorSplitLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x8"
+            android:paddingRight="@dimen/x8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="身份证号"
+                android:textColor="@color/textTitle" />
+
+            <TextView
+                android:id="@+id/text_user_idcard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="@dimen/x8"
+                android:paddingTop="@dimen/x8"
+                android:text="430410198502040526"
+
+
+                />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorSplitLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x8"
+            android:paddingRight="@dimen/x8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="手机"
+                android:textColor="@color/textTitle" />
+
+            <TextView
+                android:id="@+id/text_user_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="@dimen/x8"
+                android:paddingTop="@dimen/x8"
+                android:text="139****1235"
+
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/x8"
+
+                android:paddingRight="@dimen/x8"
+                android:src="@mipmap/body_ico_next_2x" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorSplitLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x8"
+            android:paddingRight="@dimen/x8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="邮箱"
+                android:textColor="@color/textTitle" />
+
+            <TextView
+                android:id="@+id/text_user_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="@dimen/x8"
+                android:paddingTop="@dimen/x8"
+                android:text="123456987@163.com"
+
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/x8"
+
+                android:paddingRight="@dimen/x8"
+                android:src="@mipmap/body_ico_next_2x" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorSplitLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x8"
+            android:paddingRight="@dimen/x8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="微信登录"
+                android:textColor="@color/textTitle" />
+
+            <TextView
+                android:id="@+id/text_login_weixin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="@dimen/x8"
+                android:paddingTop="@dimen/x8"
+                android:text="解绑"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorSplitLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x8"
+            android:paddingRight="@dimen/x8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="微博登录"
+                android:textColor="@color/textTitle" />
+
+            <TextView
+                android:id="@+id/text_login_weibo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="@dimen/x8"
+                android:paddingTop="@dimen/x8"
+                android:text="绑定"
+
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorSplitLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x8"
+            android:paddingRight="@dimen/x8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="qq登录"
+                android:textColor="@color/textTitle" />
+
+            <TextView
+                android:id="@+id/text_login_qq"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="@dimen/x8"
+                android:paddingTop="@dimen/x8"
+                android:text="绑定"
+
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorSplitLine" />
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x10"
+            android:gravity="center"
+            android:paddingBottom="@dimen/x5"
+            android:paddingTop="@dimen/x5"
+            android:text="退出登录"
+            android:textColor="@color/textTitle"
+            android:textSize="@dimen/x17" />
+
+    </LinearLayout>
+
+</ScrollView>

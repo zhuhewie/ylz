@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_layout_1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_big_line"
+                android:padding="@dimen/x5"
+                android:text="您正在等待进入诊室中,在这个时间您可以填写您的病症描述,以便医生可以在就诊之前就对您的病症有个大致的了解."
+                android:textColor="@color/textWoring" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:padding="@dimen/x5"
+                    android:text="排队信息"
+                    android:textColor="@color/textTitle"
+                    android:textSize="@dimen/x17" />
+
+                <LinearLayout
+                    android:id="@+id/ll_quit_queue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="vertical"
+                    android:padding="@dimen/x5">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/x5"
+                        android:background="@mipmap/bottom_btn_tuichupaidui_pre_2x" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="退出排队" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:padding="@dimen/x5">
+
+                <TableRow>
+
+                    <TextView android:text="您所在的号数为" />
+
+                    <TextView
+                        android:id="@+id/tv_number"
+                        android:padding="@dimen/x5"
+                        android:text="17"
+                        android:textColor="@color/textPaitentDate" />
+
+                    <TextView android:text="号" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:padding="@dimen/x5">
+
+                <TableRow>
+
+                    <TextView android:text="在您之前还有" />
+
+                    <TextView
+                        android:id="@+id/tv_wait_number"
+                        android:padding="@dimen/x5"
+                        android:text="3"
+                        android:textColor="@color/textPaitentDate" />
+
+                    <TextView android:text="人" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_big_line"
+                android:padding="@dimen/x5">
+
+                <TableRow>
+
+                    <TextView android:text="预计等待时间" />
+
+                    <TextView
+                        android:id="@+id/tv_wait_time"
+                        android:padding="@dimen/x5"
+                        android:text="15"
+                        android:textColor="@color/textPaitentDate" />
+                    <TextView android:text="分钟" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/bottom_line"
+                android:padding="@dimen/x5"
+                android:text="就诊信息"
+                android:textColor="@color/textTitle"
+                android:textSize="@dimen/x17" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:padding="@dimen/x5"
+                android:stretchColumns="0"
+                >
+
+                <TableRow>
+
+                    <TextView
+                        android:text="问诊人"
+                        android:textColor="@color/textTitle" />
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:padding="@dimen/x5"
+                        android:text="成活群"
+                        android:textColor="@color/textPuTong" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_line"
+                android:padding="@dimen/x5"
+                android:stretchColumns="0">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:text="医师"
+                        android:textColor="@color/textTitle" />
+
+                    <TextView
+                        android:id="@+id/tv_doctor_detial"
+                        android:padding="@dimen/x5"
+                        android:text=" 医生名字\n 医院\t 科室"
+                        android:textColor="@color/textPuTong" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="@dimen/x5"
+                android:background="@drawable/bg_rectangle_with_stroke_only"
+                android:padding="10dp">
+
+                <EditText
+                    android:id="@+id/et_symptom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="请详细描述您的症状,疾病和身体状况,便于医生更准确的分析." />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/x5">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <ImageView
+                android:id="@+id/img_add_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x5"
+                android:background="@drawable/touch_bg_rectangle_corner_stroke"
+                android:padding="@dimen/x5"
+                android:src="@mipmap/bottom_btn_tianjia_pre_2x"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_getin_room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/touch_bg_grey_borde_green_rectangle"
+                android:textColor="@color/white"
+                android:text="进入诊室" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

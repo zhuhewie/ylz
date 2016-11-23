@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/viewBackground"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/viewBackground"
+                android:orientation="vertical">
+
+                <include
+                    layout="@layout/service_roll_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/function_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x5">
+
+                </android.support.v7.widget.RecyclerView>
+
+                <!--<include
+                    layout="@layout/service_function_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x5"
+                    />-->
+
+                <include
+                    android:id="@+id/lo_hospital"
+                    layout="@layout/service_hospital_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x5" />
+
+                <include
+                    layout="@layout/service_physical_examination_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x5" />
+
+                <include
+                    layout="@layout/service_news_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x5"
+                    />
+            </LinearLayout>
+</LinearLayout>
